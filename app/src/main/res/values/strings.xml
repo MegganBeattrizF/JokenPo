@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">JokenPo</string>
+    <string name="app_choose_result_text">A escolha do app foi: %1$s</string>
+    <string name="stone_text">pedra</string>
+    <string name="paper_text">papel</string>
+    <string name="scissor_test">tesoura</string>
+    <string name="user_choose_result_text">Você escolheu: %1$s, Você %2$s</string>
+    <string name="win_text">ganhou</string>
+    <string name="lose_text">perdeu</string>
+    <string name="app_choose_label">Escolha do App</string>
+    <string name="instruction_label">Escolha uma opção abaixo</string>
 </resources>

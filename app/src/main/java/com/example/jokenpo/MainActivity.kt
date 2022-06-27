@@ -27,16 +27,19 @@ class MainActivity : AppCompatActivity() {
 
     private fun setListeners() {
         buttonStone.setOnClickListener {
+            buttonStone.isClickable = false
             userChoose = STONE_CODE
             showResult()
             hideButtonOptions(STONE_CODE)
         }
         buttonPaper.setOnClickListener {
+            buttonPaper.isClickable = false
             userChoose = PAPER_CODE
             showResult()
             hideButtonOptions(PAPER_CODE)
         }
         buttonScissors.setOnClickListener {
+            buttonScissors.isClickable = false
             userChoose = SCISSOR_CODE
             showResult()
             hideButtonOptions(SCISSOR_CODE)
